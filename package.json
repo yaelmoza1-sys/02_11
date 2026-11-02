@@ -1,0 +1,15 @@
+{
+  "name": "js-05-event-loop-fix",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Exercise 5 - Event Loop: fix the order (call stack, callback queue, setTimeout) - starter with tests",
+  "scripts": {
+    "test": "node --test --test-reporter=./test/reporter.mjs test/ex1.test.js test/ex2.test.js test/ex3.test.js test/ex4.test.js test/ex5.test.js test/ex6.test.js test/ex7.test.js test/ex8.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0"
+  }
+}
